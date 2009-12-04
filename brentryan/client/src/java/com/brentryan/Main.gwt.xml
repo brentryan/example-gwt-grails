@@ -1,0 +1,21 @@
+<module>
+    
+    <inherits name="com.google.gwt.user.User"/>
+    <inherits name="com.google.gwt.http.HTTP"/>
+    <inherits name="com.google.gwt.json.JSON"/>
+    <inherits name="com.google.gwt.i18n.I18N"/>
+    <inherits name="com.gwtext.GwtExt"/>
+    
+    <entry-point class="com.brentryan.client.Main"/>
+    
+    <stylesheet src="js/ext/resources/css/ext-all.css"/>
+    <stylesheet src="js/ext/resources/css/xtheme-aero.css"/>
+    
+    <script src="js/ext/adapter/yui/yui-utilities.js"/>
+    <script src="js/ext/adapter/yui/ext-yui-adapter.js"/>
+    <script src="js/ext/ext-all.js"/>
+    
+    <extend-property name="locale" values="en"/>
+    <extend-property name="locale" values="es_MX"/>
+    
+</module>
